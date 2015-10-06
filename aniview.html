@@ -1,0 +1,53 @@
+
+<!doctype html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+<meta name='viewport' content='width=device-width, maximum-scale=1.0' />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>AniView Video Test</title>
+<script type="text/javascript">
+  !function(a,b){a("Keen","https://d26b395fwzu5fz.cloudfront.net/3.2.7/keen.min.js",b)}(function(a,b,c){var d,e,f;c["_"+a]={},c[a]=function(b){c["_"+a].clients=c["_"+a].clients||{},c["_"+a].clients[b.projectId]=this,this._config=b},c[a].ready=function(b){c["_"+a].ready=c["_"+a].ready||[],c["_"+a].ready.push(b)},d=["addEvent","setGlobalProperties","trackExternalLink","on"];for(var g=0;g<d.length;g++){var h=d[g],i=function(a){return function(){return this["_"+a]=this["_"+a]||[],this["_"+a].push(arguments),this}};c[a].prototype[h]=i(h)}e=document.createElement("script"),e.async=!0,e.src=b,f=document.getElementsByTagName("script")[0],f.parentNode.insertBefore(e,f)},this);
+</script>
+</head>
+
+<body>
+<div id="aniplayer"></div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68269871-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- start Mixpanel -->
+<script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+  for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
+  mixpanel.init("d1ca557024d1efccfb12044bd2a0a672");</script>
+<!-- end Mixpanel -->
+
+<script type="text/javascript">
+  var keen = new Keen({
+    projectId: "560d28bd59949a44a482023f", // String (required always)
+    writeKey: "f6b0826e7273894e961efe94c1462b6f4cf1f9a9fe6e8ed5b920c4824f046ceefb6e69e7115f9e7d3f9f8d20ee59380ec8bbb8f057fa9cb19806f9b66d45abdf28d1554519def86c376760ed0f6f4cf1a957922523c7e0c786162e3c77145e5535a110da4f5953c10d3f6fb6df6d6ee2",   // String (required for sending data)
+    readKey: "8f4626dc6afdc74ab1593f6f605ac4c9b5432a66559721de1a2162547e66de574e2526f6935a9777c2de901529c19433fa887aab48b7004f7595b9536b3ae9add90df2792f2c520dfa7f119a27ba2763c31d6f0f71309532edaf0f67b792e9d687912241c4f940d6135ddbcbae9557fc"      // String (required for querying data)
+
+    // protocol: "https",         // String (optional: https | http | auto)
+    // host: "api.keen.io/3.0",   // String (optional)
+    // requestType: "jsonp"       // String (optional: jsonp, xhr, beacon)
+  });
+</script>
+
+<script src="js/analytics.js"></script>
+<script src="js/aniview.js"></script>
+
+</body>
+</html>
